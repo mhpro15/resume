@@ -166,7 +166,7 @@ export const professionalData = {
     {
       role: "Solo Project: Resume Website",
       description:
-        "Developed a personal resume website using Next.js and Tailwind CSS to showcase my skills, projects, and work experience. Designed and implemented a responsive user interface that highlights my strengths and experience, leveraging the powerful styling capabilities of Tailwind CSS. Integrated Next.js's dynamic routing and server-side rendering to create a seamless browsing experience for potential employers. Implemented SEO best practices to improve search engine rankings and increase visibility. Developed and deployed the website to showcase my portfolio and provide an online presence for my professional profile.",
+        "Developed a personal resume website using Next.js and Tailwind CSS to showcase my skills, projects, and work experience. Designed and implemented a responsive user interface that highlights my strengths and experience, leveraging the powerful styling capabilities of Tailwind CSS. Integrated Next.js's dynamic routing and server-side rendering to create a seamless browsing experience for potential employers. Implemented SEO best practices to improve search engine rankings and increase visibility. Developed and deployed the website to showcase my portfolio and provide an online presence for my professional profile. Github: https://github.com/mhpro15/resume",
       current: false,
     },
   ],
