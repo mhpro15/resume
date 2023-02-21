@@ -24,7 +24,7 @@ module.exports = {
       serif: ["Merriweather", "serif"],
       display: ["Roboto", "sans-serif"],
       noto: ["Noto Sans JP", "sans-serif"],
-      righteous: ["Righteous", "cursive"],
+      righteous: ["Righteous", "Roboto"],
     },
     fontSize: {
       sm: "0.8em",
