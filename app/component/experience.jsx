@@ -19,8 +19,8 @@ const Experience = ({ data }) => {
                   </div>
                 </div>
                 {web !== "" ? (
-                  <div className="project_pic">
-                    <a href={web} target="_blank">
+                  <div className="project_pic m-auto">
+                    <a href={web} target="_blank ">
                       <img src={`/images/${img}`}></img>
                     </a>
                   </div>
