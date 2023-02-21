@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Righteous&family=Roboto:wght@500&display=swap");
+
+@layer base {
+  h2 {
+    @apply text-nameColor text-4xl sm:text-6xl;
+  }
+  h3 {
+    @apply text-2xl mb-6 font-noto font-bold;
+  }
+  h4 {
+    @apply text-xl;
+  }
+  h5 {
+    @apply text-base;
+  }
+  p {
+    @apply text-lg;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display;
+  }
+  html {
+    @apply font-serif;
+  }
+
+  section {
+    @apply mb-10;
+  }
+}
+
+.btn {
+  @apply w-1/2 h-12 text-black font-display text-xl font-semibold uppercase px-5 transition ease-in-out hover:text-lightGreen hover:bg-lightDark;
+}
+.skill {
+  @apply bg-lightYellow text-lg py-2 px-4 w-fit rounded-md;
+}
+
+ul :hover {
+  @apply bg-green-light;
+}
+svg {
+  @apply w-8;
+}
+div a :hover {
+  @apply text-yellow;
+}
