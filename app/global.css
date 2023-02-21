@@ -33,14 +33,30 @@
   section {
     @apply mb-10;
   }
-}
+  .btn {
+    @apply w-1/2 h-12 text-black font-display text-lg font-semibold uppercase px-5 transition ease-in-out hover:text-lightGreen hover:bg-lightDark;
+  }
+  .skill {
+    @apply bg-lightYellow text-lg py-2 px-4 w-fit rounded-md;
+  }
 
-@media (-webkit-min-device-pixel-ratio: 1.25) {
-  .sidebar {
-    zoom: 0.9;
+  ul :hover {
+    @apply bg-green-light;
+  }
+  svg {
+    @apply w-8;
+  }
+  div a :hover {
+    @apply text-yellow;
   }
 }
-@media (-webkit-max-device-pixel-ratio: 1.25) {
+
+@media (-webkit-device-pixel-ratio: 1.25) {
+  .sidebar {
+    zoom: 0.8;
+  }
+}
+@media (-webkit-max-device-pixel-ratio: 1) {
   .sidebar {
     zoom: 1.1;
   }
@@ -50,22 +66,6 @@
   zoom: 1.1;
 }
 
-.btn {
-  @apply w-1/2 h-12 text-black font-display text-lg font-semibold uppercase px-5 transition ease-in-out hover:text-lightGreen hover:bg-lightDark;
-}
-.skill {
-  @apply bg-lightYellow text-lg py-2 px-4 w-fit rounded-md;
-}
-
-ul :hover {
-  @apply bg-green-light;
-}
-svg {
-  @apply w-8;
-}
-div a :hover {
-  @apply text-yellow;
-}
 .altName {
   display: flex;
 }
