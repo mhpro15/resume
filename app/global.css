@@ -54,7 +54,7 @@ div a :hover {
 .altName {
   display: flex;
 }
-.altName .hiro::before {
+.altName .hiro::after {
   content: "";
   width: 5px;
   height: 20px;
@@ -72,7 +72,7 @@ div a :hover {
     opacity: 0;
   }
 }
-.altName .hiro::before {
+.altName .hiro::after {
   /*code commented for brevity*/
   animation: cursor-blink 1.5s steps(2) infinite;
 }

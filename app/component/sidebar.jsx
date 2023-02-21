@@ -1,19 +1,14 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import TypeIt from "typeit-react";
 import "font-awesome/css/font-awesome.min.css";
 
 const Sidebar = ({ data }) => {
   const { altName, name, role, education, contactLinks } = data;
-  function typeWriter() {
-    if (i < txt.length) {
-      document.getElementById("demo").innerHTML += txt.charAt(i);
-      i++;
-      setTimeout(typeWriter, speed);
-    }
-  }
+  const [instance, setInstance] = useState(null);
+
   return (
     <div className="bg-black flex flex-col content-between w-full h-auto sm:h-screen sm:justify-around sm:w-1/3 sm:fixed ">
       <div className="text-white flex flex-col p-10 items-center">
@@ -33,6 +28,7 @@ const Sidebar = ({ data }) => {
           <br />
           <span className="text-blue">("</span>
           <TypeIt
+            options={{ loop: true }}
             getBeforeInit={(instance) => {
               instance
                 .type("Hi, I'm Mạng")
@@ -46,13 +42,21 @@ const Sidebar = ({ data }) => {
                 .pause(2000)
                 .delete(19)
                 .pause(300)
-                .type("or Hung Nguyen");
-
+                .type("or Hung Nguyen")
+                .pause(2000)
+                .move(-11)
+                .delete(3)
+                .pause(1000)
+                .move(11)
+                .pause(1000)
+                .delete(11)
+                .pause(500);
+              setInstance(instance);
               // Remember to return it!
               return instance;
             }}
           />
-          <span className="text-blue">")</span>
+          <span className="text-blue">");</span>
         </h2>
         <div className="altName">
           <h3> &gt; </h3>&nbsp;
