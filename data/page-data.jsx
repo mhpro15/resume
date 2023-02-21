@@ -155,24 +155,32 @@ export const professionalData = {
       description:
         "Working towared to be come a Software Engineer. Taking Computer Science fundametal Courses such as programming languages, algorithms, data structures, databases, software design, and operating systems. Working on individual and team project for course requirement and hobbies.",
       current: true,
+      web: "",
+      img: "",
     },
     {
       role: "Solo Project: Simon - Color Sequence Game",
       description:
-        "The game challenges the player to remember and repeat a sequence of colors displayed on the screen. The game showcases the ability to create interactive websites using HTML, CSS, and JavaScript, and also highlights the ability to implement logic and problem-solving skills in my code.\nWebsite: https://mhpro15.github.io/colorgame/",
+        "The game challenges the player to remember and repeat a sequence of colors displayed on the screen. The game showcases the ability to create interactive websites using HTML, CSS, and JavaScript, and also highlights the ability to implement logic and problem-solving skills in my code.",
       current: false,
+      web: "https://mhpro15.github.io/colorgame/",
+      img: "simon.png",
     },
     {
       role: "Solo Project: Discord ChatBot with OpenAI GPT Function",
       description:
-        "This project is a Discord Bot that uses OpenAI's Artificial Intelligence Platform to provide users with automated responses to their queries. The bot is designed to understand natural language and respond to user input in a conversational manner. It can provide answers to questions, provide helpful advice, and even generate creative content including text and img. With OpenAI's powerful AI capabilities, this bot is sure to provide an engaging and interactive experience for users.\nGitHub: https://github.com/mhpro15/bot",
+        "This project is a Discord Bot that uses OpenAI's Artificial Intelligence Platform to provide users with automated responses to their queries. The bot is designed to understand natural language and respond to user input in a conversational manner. It can provide answers to questions, provide helpful advice, and even generate creative content including text and img. With OpenAI's powerful AI capabilities, this bot is sure to provide an engaging and interactive experience for users.",
       current: false,
+      web: "https://github.com/mhpro15/bot",
+      img: "chatbot.png",
     },
     {
       role: "Solo Project: Resume Website",
       description:
-        "Developed a personal resume website using Next.js and Tailwind CSS to showcase my skills, projects, and work experience. Designed and implemented a responsive user interface that highlights my strengths and experience, leveraging the powerful styling capabilities of Tailwind CSS. Integrated Next.js's dynamic routing and server-side rendering to create a seamless browsing experience for potential employers. Implemented SEO best practices to improve search engine rankings and increase visibility. Developed and deployed the website to showcase my portfolio and provide an online presence for my professional profile. Github: https://github.com/mhpro15/resume",
-      current: false,
+        "Developed a personal resume website using Next.js and Tailwind CSS to showcase my skills, projects, and work experience. Designed and implemented a responsive user interface that highlights my strengths and experience, leveraging the powerful styling capabilities of Tailwind CSS. Integrated Next.js's dynamic routing and server-side rendering to create a seamless browsing experience for potential employers. Implemented SEO best practices to improve search engine rankings and increase visibility. Developed and deployed the website to showcase my portfolio and provide an online presence for my professional profile.",
+      current: true,
+      web: "https://resume-mhpro15.vercel.app",
+      img: "resume_project.png",
     },
   ],
 };

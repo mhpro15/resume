@@ -76,3 +76,29 @@ div a :hover {
   /*code commented for brevity*/
   animation: cursor-blink 1.5s steps(2) infinite;
 }
+.project_pic {
+  flex: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 300px;
+  width: 50%;
+}
+.project_pic img {
+  border-radius: 25px;
+  border: solid #fffbac;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 1s;
+}
+
+.project_pic :hover {
+  border-radius: 25px;
+  border: solid #68f590;
+  transform: scale(1.1);
+}
+.description {
+  display: flex;
+  align-items: center;
+  flex: 70%;
+  padding: 10px;
+}
