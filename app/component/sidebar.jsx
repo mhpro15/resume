@@ -50,7 +50,7 @@ const Sidebar = ({ data }) => {
                 .move(11)
                 .pause(1000)
                 .delete(11)
-                .pause(500);
+                .pause(1000);
               setInstance(instance);
               // Remember to return it!
               return instance;
