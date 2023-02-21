@@ -16,8 +16,20 @@ const Sidebar = ({ data }) => {
           alt="avatar.jpg"
           aria-label="avatar.jpg"
         />
-        <h2 className="my-0 text-center">{name}</h2>
-        <h3 className="mb-8 mt-0">{altName}</h3>
+        <h2 className="my-0 text-center">
+          <span className="text-yellow">console</span>
+          <span className="text-white">.</span>
+          <span className="text-salmon">log</span>
+          <br />
+          <span className="text-blue">("</span>
+          {name}
+          <span className="text-blue">")</span>
+        </h2>
+        <div className="altName">
+          <h3> &gt; </h3>&nbsp;
+          <h3 className="mb-8 mt-0 hiro">{altName}</h3>
+        </div>
+
         <h4 className="mb-8 text-center">{role}</h4>
         <p className="mb-2 font-noto">{education[0]}</p>
         <p className="mb-2 font-noto">{education[1]}</p>

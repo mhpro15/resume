@@ -157,7 +157,7 @@ export const professionalData = {
       current: true,
     },
     {
-      role: "Solo Project: Simo-Color Sequence Game",
+      role: "Solo Project: Simon - Color Sequence Game",
       description:
         "The game challenges the player to remember and repeat a sequence of colors displayed on the screen. The game showcases the ability to create interactive websites using HTML, CSS, and JavaScript, and also highlights the ability to implement logic and problem-solving skills in my code.\nWebsite: https://mhpro15.github.io/colorgame/",
       current: false,

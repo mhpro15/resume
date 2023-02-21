@@ -18,6 +18,8 @@ module.exports = {
       nameColor: "#C9F4AA",
       lightYellow: "#FFFBAC",
       lightDark: "#393939",
+      salmon: "#e06c75;",
+      blue: "#61afef",
     },
     fontFamily: {
       sans: ["Georgia", "sans-serif"],
@@ -25,6 +27,7 @@ module.exports = {
       display: ["Roboto", "sans-serif"],
       noto: ["Noto Sans JP", "sans-serif"],
       righteous: ["Righteous", "Roboto"],
+      name: ["JetBrains Mono", "monospace"],
     },
     fontSize: {
       sm: "0.8em",

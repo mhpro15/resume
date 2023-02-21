@@ -1,11 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Righteous&family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Noto+Sans+JP:wght@500&family=Righteous&family=Roboto:wght@500&display=swap");
 
 @layer base {
   h2 {
-    @apply text-nameColor text-4xl sm:text-6xl;
+    @apply text-nameColor text-4xl;
   }
   h3 {
     @apply text-2xl mb-6 font-noto font-bold;
@@ -50,4 +50,29 @@ svg {
 }
 div a :hover {
   @apply text-yellow;
+}
+.altName {
+  display: flex;
+}
+.altName .hiro::before {
+  content: "";
+  width: 5px;
+  height: 20px;
+  background: #ec7fff;
+  display: inline-block;
+}
+.altName .hiro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2px;
+}
+@keyframes cursor-blink {
+  0% {
+    opacity: 0;
+  }
+}
+.altName .hiro::before {
+  /*code commented for brevity*/
+  animation: cursor-blink 1.5s steps(2) infinite;
 }
