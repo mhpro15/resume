@@ -1,9 +1,19 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
+import TypeIt from "typeit-react";
 import "font-awesome/css/font-awesome.min.css";
 
 const Sidebar = ({ data }) => {
   const { altName, name, role, education, contactLinks } = data;
+  function typeWriter() {
+    if (i < txt.length) {
+      document.getElementById("demo").innerHTML += txt.charAt(i);
+      i++;
+      setTimeout(typeWriter, speed);
+    }
+  }
   return (
     <div className="bg-black flex flex-col content-between w-full h-auto sm:h-screen sm:justify-around sm:w-1/3 sm:fixed ">
       <div className="text-white flex flex-col p-10 items-center">
@@ -22,7 +32,26 @@ const Sidebar = ({ data }) => {
           <span className="text-salmon">log</span>
           <br />
           <span className="text-blue">("</span>
-          {name}
+          <TypeIt
+            getBeforeInit={(instance) => {
+              instance
+                .type("Hi, I'm Mạng")
+                .pause(750)
+                .delete(2)
+                .pause(500)
+                .type("nh Hùnh")
+                .pause(500)
+                .delete(1)
+                .type("g")
+                .pause(2000)
+                .delete(19)
+                .pause(300)
+                .type("or Hung Nguyen");
+
+              // Remember to return it!
+              return instance;
+            }}
+          />
           <span className="text-blue">")</span>
         </h2>
         <div className="altName">
