@@ -42,7 +42,7 @@
 }
 @media (-webkit-max-device-pixel-ratio: 1.25) {
   .sidebar {
-    zoom: 0.9;
+    zoom: 1.1;
   }
 }
 
