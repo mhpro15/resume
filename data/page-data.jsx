@@ -118,7 +118,7 @@ export const aboutMe = {
   title: "ABOUT ME",
   body: [
     "Highly motivated software engineering student with a passion for technology and a strong desire to learn and grow in the field. Skilled in programming languages including Python, C#, JavaScript, HTML, CSS, and SQL, and proficient in frameworks such as ReactJS and NodeJS.",
-    "Adept at utilizing software tools including Visual Studio + Code, AutoCAD, PyCharm, Atom, and Postman. Experienced in operating systems including Windows 7/8/10, Windows Server 2008/2012, Mac OS, Linux, and VM. Strong problem-solving skills, an ability to work well in a team or individually, and a track record of meeting deadlines.",
+    " As a software engineering student, I have gained a strong foundation in designing, developing, and maintaining software systems. I possess excellent programming skills in various languages such as C#, Java, Python, and JavaScript. I am adept at designing and implementing efficient algorithms, developing robust software architectures, and working with databases and operating systems. I am well-versed in software development methodologies such as Agile, Scrum, and Waterfall, and possess excellent skills in testing, debugging, and troubleshooting. Additionally, I have honed my communication and collaboration skills through teamwork on projects, and am comfortable working in both individual and team-based environments. Overall, I am confident that the skills I have gained as a software engineering student have prepared me well for a successful career in the field.",
     "When I'm not working or studying, I love watching anime, playing video games, finding some cool projects to work on, and spending time with my friends and family. I believe that my determination, can-do attitude, and hard work make me a true asset to any team.",
   ],
 };
@@ -153,7 +153,7 @@ export const professionalData = {
     {
       role: "Software Engineering Technology Student, Centennial College (2022 - Now)",
       description:
-        "Working toward to be come a Software Engineer. Taking Computer Science fundametal Courses such as programming languages, algorithms, data structures, databases, software design, and operating systems. Working on individual and team project for course requirement and hobbies.",
+        "Working toward to be come a Software Engineer. Taking Computer Science fundametal Courses such as programming languages, algorithms, data structures, databases, software design, and operating systems.Team Project. Collaborated with a team or working individually to design and develop multiple projects, using C#, Python and JavaScript. Utilized Agile methodology to manage project scope, track progress, and meet deadlines. Designed and implemented efficient algorithms and data structures to support application functionality. Conducted comprehensive testing and debugging to ensure high-quality software delivery.",
       current: true,
       web: "",
       img: "",
