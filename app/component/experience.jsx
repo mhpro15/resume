@@ -14,7 +14,7 @@ const Experience = ({ data }) => {
               <div className="bg-grey-light p-6 drop-shadow-md flex flex-col sm:flex-row">
                 <div className="description">
                   <div>
-                    <h4>{role}</h4>
+                    <h4 className="font-name font-bold">{role}</h4>
                     <p className="mt-2">{description}</p>
                   </div>
                 </div>
