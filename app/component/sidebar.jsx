@@ -67,7 +67,7 @@ const Sidebar = ({ data }) => {
         <p className="mb-2 font-noto">{education[0]}</p>
         <p className="mb-2 font-noto">{education[1]}</p>
         <div className="text-white text-center my-8 mb-2 sm:mt-15 ">
-          <h3 className="font-righteous mb-0">FIND ME AT</h3>
+          <h3 className="font-name mb-0">FIND ME AT</h3>
           <div className="flex flex-row justify-center gap-5 text-3xl mb-2">
             <a
               href={contactLinks?.[0]}
