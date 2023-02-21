@@ -6,7 +6,7 @@ import Experience from "./component/experience";
 
 const page = () => {
   return (
-    <div>
+    <div className="rightTab">
       <About data={aboutMe} skills={skills} />
       <Experience data={professionalData} />
       <footer className="text-center font-noto">

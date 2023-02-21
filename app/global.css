@@ -34,7 +34,7 @@
     @apply mb-10;
   }
 }
-body {
+.rightTab {
   zoom: 1.1;
 }
 .btn {
