@@ -10,8 +10,8 @@ const Sidebar = ({ data }) => {
   const [instance, setInstance] = useState(null);
 
   return (
-    <div className="bg-black flex flex-col content-between w-full h-auto sm:h-screen sm:justify-around sm:w-1/3 sm:fixed ">
-      <div className="text-white flex flex-col p-10 items-center">
+    <div className=" bg-black flex flex-col content-between w-full h-auto sm:h-screen sm:justify-around sm:w-1/3 sm:fixed ">
+      <div className=" sidebar text-white flex flex-col p-10 items-center">
         <Image
           priority
           width={300}
