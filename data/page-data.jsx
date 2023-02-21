@@ -151,7 +151,7 @@ export const professionalData = {
   title: "EXPERIENCE",
   experiences: [
     {
-      role: "Software Engineering Technology Student, Centennial College (2022-Now)",
+      role: "Software Engineering Technology Student, Centennial College (2022 - Now)",
       description:
         "Working towared to be come a Software Engineer. Taking Computer Science fundametal Courses such as programming languages, algorithms, data structures, databases, software design, and operating systems. Working on individual and team project for course requirement and hobbies.",
       current: true,
