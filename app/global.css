@@ -34,12 +34,22 @@
     @apply mb-10;
   }
 }
+
+@media (-webkit-min-device-pixel-ratio: 1.25) {
+  .sidebar {
+    zoom: 0.9;
+  }
+}
+@media (-webkit-max-device-pixel-ratio: 1.25) {
+  .sidebar {
+    zoom: 0.9;
+  }
+}
+
 .rightTab {
   zoom: 1.1;
 }
-.sidebar {
-  zoom: 0.95;
-}
+
 .btn {
   @apply w-1/2 h-12 text-black font-display text-lg font-semibold uppercase px-5 transition ease-in-out hover:text-lightGreen hover:bg-lightDark;
 }
