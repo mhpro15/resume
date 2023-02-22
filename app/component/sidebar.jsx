@@ -7,7 +7,6 @@ import "font-awesome/css/font-awesome.min.css";
 
 const Sidebar = ({ data }) => {
   const { altName, name, role, education, contactLinks } = data;
-  const [instance, setInstance] = useState(null);
 
   return (
     <div className=" bg-black flex flex-col content-between w-full h-auto sm:h-full sm:justify-around sm:w-1/3 sm:fixed ">
@@ -56,7 +55,6 @@ const Sidebar = ({ data }) => {
                 .pause(1000)
                 .delete(11)
                 .pause(1000);
-              setInstance(instance);
               // Remember to return it!
               return instance;
             }}

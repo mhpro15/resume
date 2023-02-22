@@ -46,7 +46,7 @@
   svg {
     @apply w-8;
   }
-  div a :hover {
+  div a:hover {
     @apply text-yellow;
   }
 }
