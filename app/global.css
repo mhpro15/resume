@@ -65,6 +65,7 @@
 .avatar {
   border: outset 0.3rem #61afef;
   transition: ease;
+  transition-duration: 0.5s;
 }
 .avatar:hover {
   border: inset 0.4rem #b870da;
