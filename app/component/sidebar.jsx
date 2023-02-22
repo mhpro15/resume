@@ -16,7 +16,7 @@ const Sidebar = ({ data }) => {
           priority
           width={300}
           height={300}
-          className="rounded-full h-full mb-6"
+          className="rounded-full h-full mb-6 avatar"
           src="/images/avatar.jpg"
           alt="avatar.jpg"
           aria-label="avatar.jpg"
@@ -39,6 +39,11 @@ const Sidebar = ({ data }) => {
                 .pause(500)
                 .delete(1)
                 .type("g")
+                .pause(500)
+                .type(" :P")
+                .pause(200)
+                .delete(3)
+                .type("!")
                 .pause(2000)
                 .delete(19)
                 .pause(300)

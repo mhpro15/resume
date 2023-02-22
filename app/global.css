@@ -62,6 +62,13 @@
   }
 }
 
+.avatar {
+  border: outset 0.3rem #61afef;
+  transition: ease;
+}
+.avatar:hover {
+  border: inset 0.4rem #b870da;
+}
 .rightTab {
   zoom: 1.1;
 }
