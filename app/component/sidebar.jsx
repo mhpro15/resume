@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { use, useState } from "react";
 import Image from "next/image";
 import TypeIt from "typeit-react";
 import "font-awesome/css/font-awesome.min.css";
@@ -30,11 +30,11 @@ const Sidebar = ({ data }) => {
             options={{ loop: true }}
             getBeforeInit={(instance) => {
               instance
-                .type("Hi, I'm Mạng")
+                .type("Hi, I'm Myx")
                 .pause(750)
                 .delete(2)
                 .pause(500)
-                .type("nh Hùnh")
+                .type("ạnh Hùnh")
                 .pause(500)
                 .delete(1)
                 .type("g")
