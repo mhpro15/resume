@@ -103,8 +103,8 @@ export const personalData = {
   altName: "Hiro",
   role: "Software Engineering Technology Student",
   education: [
-    "Electronics Engineering Technology Diploma, Seneca College (2018-2020)",
-    "Software Engineering Technology Diploma, Centennial College (2022-Now)",
+    "Electronics Engineering Technology Diploma, Seneca College (2018 - 2020)",
+    "Software Engineering Technology Diploma, Centennial College (2022 - Now)",
   ],
   contactLinks: [
     "mailto:emailto:nguyenmanhhungpro15@gmail.com@gmail.com",

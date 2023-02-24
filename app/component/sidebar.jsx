@@ -13,14 +13,14 @@ const Sidebar = ({ data }) => {
       <div className=" sidebar text-white flex flex-col p-10 items-center">
         <Image
           priority
-          width={300}
-          height={300}
-          className="rounded-full h-full mb-6 avatar"
+          width={200}
+          height={200}
+          className="rounded-full h-full mb-6 avatar sm:w-[300px] sm:h-[300px]"
           src="/images/avatar.jpg"
           alt="avatar.jpg"
           aria-label="avatar.jpg"
         />
-        <h2 className="my-0 text-center">
+        <h2 className="my-0 text-center min-h-extra sm:min-h-full">
           <span className="text-yellow">console</span>
           <span className="text-white">.</span>
           <span className="text-salmon">log</span>
