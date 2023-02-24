@@ -12,7 +12,7 @@ const Skills = ({ data }) => {
       {["soft", "hard"].map((element) => (
         <button
           type="button"
-          className={`btn ${setBg(element)} ${setAlign(element)}`}
+          className={`btn ${setBg(element)} ${setAlign(element)} `}
           key={`${element}btn`}
           onClick={() => setActive(element)}
         >

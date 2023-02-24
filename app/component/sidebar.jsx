@@ -10,17 +10,17 @@ const Sidebar = ({ data }) => {
 
   return (
     <div className=" bg-black flex flex-col content-between w-full h-auto sm:h-full sm:justify-around sm:w-1/3 sm:fixed ">
-      <div className=" sidebar text-white flex flex-col p-10 items-center">
+      <div className=" sidebar text-white flex flex-col p-10 items-center min-h-[1000px] w-auto">
         <Image
           priority
           width={200}
           height={200}
-          className="rounded-full h-full mb-6 avatar sm:w-[300px] sm:h-[300px]"
+          className="rounded-full h-full mb-6 avatar sx:w-[300px] sx:h-full"
           src="/images/avatar.jpg"
           alt="avatar.jpg"
           aria-label="avatar.jpg"
         />
-        <h2 className="my-0 text-center min-h-extra sm:min-h-full">
+        <h2 className="my-0 text-center">
           <span className="text-yellow">console</span>
           <span className="text-white">.</span>
           <span className="text-salmon">log</span>
@@ -61,7 +61,7 @@ const Sidebar = ({ data }) => {
           />
           <span className="text-blue">");</span>
         </h2>
-        <div className="altName">
+        <div className="altName inline-block">
           <h3> &gt; </h3>&nbsp;
           <h3 className="mb-8 mt-0 hiro">{altName}</h3>
         </div>

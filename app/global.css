@@ -34,7 +34,7 @@
     @apply mb-10;
   }
   .btn {
-    @apply w-1/2 h-12 text-black font-display text-lg font-semibold uppercase px-5 transition ease-in-out duration-500 hover:text-lightGreen hover:bg-lightDark;
+    @apply w-1/2 h-12 text-black font-display text-base font-semibold uppercase px-5 transition ease-in-out duration-500 hover:text-lightGreen hover:bg-lightDark;
   }
   .skill {
     @apply bg-lightYellow text-lg py-2 px-4 w-fit rounded-md;
