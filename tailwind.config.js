@@ -41,7 +41,7 @@ module.exports = {
       "6xl": "3.5rem",
     },
     minHeight: {
-      extra: "180px",
+      extra: "155px",
     },
     extend: {
       screens: {
