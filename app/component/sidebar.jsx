@@ -15,7 +15,7 @@ const Sidebar = ({ data }) => {
           priority
           width={200}
           height={200}
-          className="rounded-full h-full mb-6 avatar sx:w-[300px] sx:h-full"
+          className="rounded-full h-full mb-6 avatar sx:w-[300px] sx:h-auto"
           src="/images/avatar.jpg"
           alt="avatar.jpg"
           aria-label="avatar.jpg"
