@@ -153,7 +153,7 @@ export const professionalData = {
     {
       role: "Software Engineering Technology Student, Centennial College (2022 - Now)",
       description:
-        "Working toward to be come a Software Engineer. Taking Computer Science fundametal Courses such as programming languages, algorithms, data structures, databases, software design, and operating systems.Team Project. Collaborated with a team or working individually to design and develop multiple projects, using C#, Python and JavaScript. Utilized Agile methodology to manage project scope, track progress, and meet deadlines. Designed and implemented efficient algorithms and data structures to support application functionality. Conducted comprehensive testing and debugging to ensure high-quality software delivery.",
+        "Working toward to be come a Software Engineer. Taking Computer Science fundametal Courses such as programming languages, algorithms, data structures, databases, software design, and operating systems. Learning and practicing programming languages such as C#, Java, Python, and JavaScript. Getting familiar with frameworks such as ReactJS and NodeJS. Applying software development methodologies such as Agile, Scrum, and Waterfall into practices. Communication and collaboration skills through teamwork on projects, and am comfortable working in both individual and team-based environments.",
       current: true,
       web: "",
       img: "",
