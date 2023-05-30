@@ -159,6 +159,13 @@ export const professionalData = {
       img: "",
     },
     {
+      role: "Student Researcher, ARIES - Centennial College (May 2023 - Now)",
+      description: "Conduct data collecting and researching based on project requirements. Implementing function and building algorithm from found data. Perform testing and debugging on product. Collect feedback and requirement from client, stakeholder. Collaborating with team members to design and develop  projects, using C#, Python and JavaScript. Utilized Agile methodology to manage project scope, track progress, and meet deadlines. Designed and implemented efficient algorithms and data structures to support application functionality. Conducted comprehensive testing and debugging to ensure high-quality software delivery.",
+        current: true,
+      web: "",
+      img: "",
+    },
+    {
       role: "Solo Project: Simon - Color Sequence Game",
       description:
         "The game challenges the player to remember and repeat a sequence of colors displayed on the screen. The game showcases the ability to create interactive websites using HTML, CSS, and JavaScript, and also highlights the ability to implement logic and problem-solving skills in my code.",
