@@ -166,6 +166,30 @@ export const professionalData = {
       img: "",
     },
     {
+      role: "Database Project: Employee Management System with EJS and Oracle SQL",
+      description:
+        "Developed a web application to manage employee information using EJS and Oracle SQL. Apply SQL procedure and trigger to create, update, delete, and retrieve data from database. Implemented a responsive user interface using EJS and Bootstrap. RESTful API to provide access to employee data and enable CRUD operations.",
+      current: false,
+      web: "https://github.com/mhpro15/databaseAssignment4",
+      img: "database_project.png",
+    },
+    {
+      role: "Group Project: Online Survey Website with Angular and MongoDB",
+      description:
+        "Online survey website where user can login, create survey. User can also take survey and view the result, survey report. Developed a responsive user interface using Angular and Bootstrap to provide a better user experience across devices. Designed and implemented a database schema to store survey information and manage data. Developed a RESTful API to provide access to survey data and enable CRUD operations. Implemented a secure authentication system using JWT to protect user data and prevent unauthorized access.",
+      current: true,
+      web: "https://github.com/FawziaSaad/COMP229-Group4",
+      img: "survey_project.png",
+    },
+    {
+      role: "Solo Project: Resume Website",
+      description:
+        "Developed a personal resume website using Next.js and Tailwind CSS to showcase my skills, projects, and work experience. Designed and implemented a responsive user interface that highlights my strengths and experience, leveraging the powerful styling capabilities of Tailwind CSS. Integrated Next.js's dynamic routing and server-side rendering to create a seamless browsing experience for potential employers. Implemented SEO best practices to improve search engine rankings and increase visibility. Developed and deployed the website to showcase my portfolio and provide an online presence for my professional profile.",
+      current: true,
+      web: "https://manhhung.app",
+      img: "resume_project.png",
+    },
+    {
       role: "Solo Project: Simon - Color Sequence Game",
       description:
         "The game challenges the player to remember and repeat a sequence of colors displayed on the screen. The game showcases the ability to create interactive websites using HTML, CSS, and JavaScript, and also highlights the ability to implement logic and problem-solving skills in my code.",
@@ -181,13 +205,6 @@ export const professionalData = {
       web: "https://github.com/mhpro15/bot",
       img: "chatbot.png",
     },
-    {
-      role: "Solo Project: Resume Website",
-      description:
-        "Developed a personal resume website using Next.js and Tailwind CSS to showcase my skills, projects, and work experience. Designed and implemented a responsive user interface that highlights my strengths and experience, leveraging the powerful styling capabilities of Tailwind CSS. Integrated Next.js's dynamic routing and server-side rendering to create a seamless browsing experience for potential employers. Implemented SEO best practices to improve search engine rankings and increase visibility. Developed and deployed the website to showcase my portfolio and provide an online presence for my professional profile.",
-      current: true,
-      web: "https://resume-mhpro15.vercel.app",
-      img: "resume_project.png",
-    },
+    
   ],
 };

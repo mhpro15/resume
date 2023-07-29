@@ -8,7 +8,7 @@ const Skills = ({ data }) => {
   const setAlign = (side) => (side === "soft" ? "text-left" : "text-right");
 
   const skillTabs = (
-    <div className="flex">
+    <div className="flex mt-8" >
       {["soft", "hard"].map((element) => (
         <button
           type="button"

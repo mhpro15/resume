@@ -11,7 +11,8 @@ const Sidebar = ({ data }) => {
   return (
     <div className=" bg-black flex flex-col content-between w-full h-auto sm:h-full sm:justify-around sm:w-1/3 sm:fixed ">
       <div className=" sidebar text-white flex flex-col p-10 items-center min-h-[1000px] w-auto">
-        <Image
+        <a href="resume.pdf">
+          <Image
           priority
           width={200}
           height={200}
@@ -19,7 +20,8 @@ const Sidebar = ({ data }) => {
           src="/images/avatar.jpg"
           alt="avatar.jpg"
           aria-label="avatar.jpg"
-        />
+          />
+        </a>
         <h2 className="my-0 text-center">
           <span className="text-yellow">console</span>
           <span className="text-white">.</span>
