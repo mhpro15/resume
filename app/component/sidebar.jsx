@@ -11,7 +11,7 @@ const Sidebar = ({ data }) => {
   return (
     <div className=" bg-black flex flex-col content-between w-full h-auto sm:h-full sm:justify-around sm:w-1/3 sm:fixed ">
       <div className=" sidebar text-white flex flex-col p-10 items-center min-h-[1000px] w-auto">
-        <a href="resume.pdf">
+        <a href="resume.pdf" target="_blank">
           <Image
           priority
           width={200}
