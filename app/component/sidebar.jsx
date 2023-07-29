@@ -45,18 +45,18 @@ const Sidebar = ({ data }) => {
                 .pause(200)
                 .delete(3)
                 .type("!")
-                .pause(2000)
+                .pause(1000)
                 .delete(19)
                 .pause(300)
                 .type("or Hung Nguyen")
-                .pause(2000)
-                .move(-11)
-                .delete(3)
                 .pause(1000)
-                .move(11)
+                .delete(14)
+                .type("a Software Developer")
                 .pause(1000)
-                .delete(11)
-                .pause(1000);
+                .delete(20)
+                .type("click on my avatar to download my resume")
+                .pause(750)
+                .delete(40);
               // Remember to return it!
               return instance;
             }}
