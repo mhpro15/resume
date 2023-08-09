@@ -140,7 +140,7 @@ export const aboutMe = {
   body: [
     "My name is Hung Nguyen and I'm a Software Enginnering Technology student at Centennial College. I'm passionate about programming and enjoy learning new technologies. I'm currently looking for a Co-op position to apply my skills and gain valuable experience in the field of Software Development.",
     "There are many programming language out there, each of them serve for same or different purpose. And for me I'm most comfortable with JavaScript and Python. I'm also familiar with C#, Java, and Typescript and I'm always open to learn new languages. ",
-  "Even though there are multiple programming languages, but the most important thing is to understand the concept of programming, because there always some similarities between languages. And with a strong foundation of programming concept and I'm always open to learn new things."
+  "Even though there are multiple programming languages, but the most important thing is to understand the concept of programming, because there always some similarities between languages. And with a strong foundation of programming concept, I'm confident to say that I can pick up any new language in a short amount of time. ",
   ],
 };
 
