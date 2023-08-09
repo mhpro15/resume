@@ -203,7 +203,7 @@ export const professionalData = {
       description:
         "Online survey website where user can login, create survey. User can also take survey and view the result, survey report. Developed a responsive user interface using Angular and Bootstrap to provide a better user experience across devices. Designed and implemented a database schema to store survey information and manage data. Developed a RESTful API to provide access to survey data and enable CRUD operations. Implemented a secure authentication system using JWT to protect user data and prevent unauthorized access.",
       current: true,
-      web: "https://github.com/FawziaSaad/COMP229-Group4",
+      web: "https://deploy-angular-test-mdfh-git-main-mhpro15.vercel.app",
       img: "survey_project.png",
     },
     {
