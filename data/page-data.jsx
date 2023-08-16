@@ -130,7 +130,7 @@ export const personalData = {
   contactLinks: [
     "mailto:emailto:nguyenmanhhungpro15@gmail.com@gmail.com",
     "https://www.linkedin.com/in/hung-nguyen1206/",
-    "https://github.com/mhpro15?tab=repositories",
+    "https://github.com/mhpro15",
     "https://leetcode.com/nguyenmanhhungpro15/",
   ],
 };
