@@ -218,8 +218,9 @@ export const professionalData = {
       description:
         "Developed a web application to manage employee information using EJS and Oracle SQL. Apply SQL procedure and trigger to create, update, delete, and retrieve data from database. Implemented a responsive user interface using EJS and Bootstrap. RESTful API to provide access to employee data and enable CRUD operations.",
       current: false,
-      web: "https://dry-headland-20312.herokuapp.com",
+      // web: "https://dry-headland-20312.herokuapp.com",
       img: "database_project.png",
+      web: "",
     },
     {
       role: "Group Project: Online Survey Website with Angular and MongoDB",
