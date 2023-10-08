@@ -206,6 +206,13 @@ export const professionalData = {
       img: "",
     },
     {
+      role: "『Up-coming』Software Developer Co-op, Ministry of Children, Community and Social Services (Jan 2024 - Dec 2024)",
+      description: "『Wait for update...』",
+      current: true,
+      web: "",
+      img: "",
+    },
+    {
       role: "Student Researcher, ARIES - Centennial College (May 2023 - Aug 2023)",
       description:
         "Conduct data collecting and researching based on project requirements. Implementing function and building algorithm from found data. Perform testing and debugging on product. Collect feedback and requirement from client, stakeholder. Collaborating with team members to design and develop  projects, using C#, Python and JavaScript. Utilized Agile methodology to manage project scope, track progress, and meet deadlines. Designed and implemented efficient algorithms and data structures to support application functionality. Conducted comprehensive testing and debugging to ensure high-quality software delivery.",
