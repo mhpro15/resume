@@ -200,7 +200,7 @@ export const professionalData = {
     {
       role: "Software Engineering Technology Student, Centennial College (2022 - Now)",
       description:
-        "Working toward to be come a Software Engineer. Taking Computer Science fundametal Courses such as programming languages, algorithms, data structures, databases, software design, and operating systems. Learning and practicing programming languages such as C#, Java, Python, and JavaScript. Getting familiar with frameworks such as ReactJS and NodeJS. Applying software development methodologies such as Agile, Scrum, and Waterfall into practices. Communication and collaboration skills through teamwork on projects, and am comfortable working in both individual and team-based environments.",
+        "Studying toward to be come a Software Engineer. Taking Computer Science fundametal Courses such as programming languages, algorithms, data structures, databases, software design, and operating systems. Learning and practicing programming languages such as C#, Java, Python, and JavaScript. Getting familiar with frameworks such as ReactJS and NodeJS. Applying software development methodologies such as Agile, Scrum, and Waterfall into practices. Communication and collaboration skills through teamwork on projects, and am comfortable working in both individual and team-based environments.",
       current: true,
       web: "",
       img: "",
@@ -233,7 +233,7 @@ export const professionalData = {
       role: "Group Project: Online Survey Website with Angular and MongoDB",
       description:
         "Online survey website where user can login, create survey. User can also take survey and view the result, survey report. Developed a responsive user interface using Angular and Bootstrap to provide a better user experience across devices. Designed and implemented a database schema to store survey information and manage data. Developed a RESTful API to provide access to survey data and enable CRUD operations. Implemented a secure authentication system using JWT to protect user data and prevent unauthorized access.",
-      current: true,
+      current: false,
       web: "https://super-awesome-surveyors.vercel.app",
       img: "survey_project.png",
     },
