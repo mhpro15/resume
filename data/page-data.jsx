@@ -221,13 +221,11 @@ export const professionalData = {
       img: "",
     },
     {
-      role: "Database Project: Employee Management System with EJS and Oracle SQL",
+      role: "『On-going』Project: Teameup - Hackathon Team-Up Platform with NextJs and MongoDB",
       description:
-        "Developed a web application to manage employee information using EJS and Oracle SQL. Apply SQL procedure and trigger to create, update, delete, and retrieve data from database. Implemented a responsive user interface using EJS and Bootstrap. RESTful API to provide access to employee data and enable CRUD operations.",
-      current: false,
-      // web: "https://dry-headland-20312.herokuapp.com",
-      img: "database_project.png",
-      web: "https://github.com/mhpro15/databaseAssignment4",
+        "Developing a web application to help people find teammates for hackathon. Apply NextJs and MongoDB to create, update, delete, and retrieve data from database. Implemented a responsive user interface using NextJs. Next-Auth to provide authentication system.",
+      current: true,
+      img: "teameup.png",
     },
     {
       role: "Group Project: Online Survey Website with Angular and MongoDB",
@@ -236,6 +234,15 @@ export const professionalData = {
       current: false,
       web: "https://super-awesome-surveyors.vercel.app",
       img: "survey_project.png",
+    },
+    {
+      role: "Database Project: Employee Management System with EJS and Oracle SQL",
+      description:
+        "Developed a web application to manage employee information using EJS and Oracle SQL. Apply SQL procedure and trigger to create, update, delete, and retrieve data from database. Implemented a responsive user interface using EJS and Bootstrap. RESTful API to provide access to employee data and enable CRUD operations.",
+      current: false,
+      // web: "https://dry-headland-20312.herokuapp.com",
+      img: "database_project.png",
+      web: "https://github.com/mhpro15/databaseAssignment4",
     },
     {
       role: "Solo Project: Resume Website",
