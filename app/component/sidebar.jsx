@@ -13,13 +13,13 @@ const Sidebar = ({ data }) => {
       <div className=" sidebar text-white flex flex-col p-10 items-center min-h-[1000px] w-auto">
         <a href="resume.pdf" target="_blank">
           <Image
-          priority
-          width={200}
-          height={200}
-          className="rounded-full h-full mb-6 avatar sx:w-[300px] sx:h-auto"
-          src="/images/avatar.jpg"
-          alt="avatar.jpg"
-          aria-label="avatar.jpg"
+            priority
+            width={200}
+            height={200}
+            className="rounded-full h-full mb-6 avatar sx:w-[300px] sx:h-auto"
+            src="/images/avatar2.jpg"
+            alt="avatar.jpg"
+            aria-label="avatar.jpg"
           />
         </a>
         <h2 className="my-0 text-center">
