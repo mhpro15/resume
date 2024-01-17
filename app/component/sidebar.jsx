@@ -14,8 +14,8 @@ const Sidebar = ({ data }) => {
         <a href="resume.pdf" target="_blank">
           <Image
             priority
-            width={4000}
-            height={4000}
+            width={2000}
+            height={2000}
             className="rounded-full h-full mb-6 avatar sx:w-[300px] sx:h-auto"
             src="/images/avatar2.jpg"
             alt="avatar.jpg"

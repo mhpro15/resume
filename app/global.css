@@ -66,10 +66,16 @@ html {
 }
 .avatar {
   border: outset 0.3rem #61afef;
-  transition: 0.3s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 .avatar:hover {
-  border: inset 0.4rem #b870da;
+  border: inset 0.4rem #b070da;
+  content: url("/images/avatar4.jpg");
+  transition: 0.5s ease-in-out;
+}
+.avatar:active {
+  border: inset 0.4rem #70da79;
+  content: url("/images/avatar3.jpg");
 }
 .rightTab {
   zoom: 1.1;
