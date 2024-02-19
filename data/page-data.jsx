@@ -221,11 +221,12 @@ export const professionalData = {
       img: "",
     },
     {
-      role: "『On-going』Project: Teameup - Hackathon Team-Up Platform with NextJs and MongoDB",
+      role: "Solo Project: Movie Website Application with ASP.NET MVC | RDS SQL Server | DYNAMO DB | AWS",
       description:
-        "Developing a web application to help people find teammates for hackathon. Apply NextJs and MongoDB to create, update, delete, and retrieve data from database. Implemented a responsive user interface using NextJs. Next-Auth to provide authentication system.",
+        "Developed a web application to manage movie information using ASP.NET MVC, RDS SQL Server, and DynamoDB. Apply SQL procedure and trigger to create, update, delete, and retrieve data from database. Implemented a responsive user interface using Razor and Bootstrap. RESTful API to provide access to movie data and enable CRUD operations. Movie streaming servive! Deployed the application to AWS Elastic Beanstalk to provide a reliable and scalable user experience.",
       current: true,
-      img: "teameup.png",
+      web: "http://lab3hungnguyen-dev.ca-central-1.elasticbeanstalk.com",
+      img: "elastic.png",
     },
     {
       role: "Group Project: Online Survey Website with Angular and MongoDB",
