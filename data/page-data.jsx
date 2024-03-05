@@ -225,7 +225,7 @@ export const professionalData = {
       description:
         "Developed a web application to manage movie information using ASP.NET MVC, RDS SQL Server, and DynamoDB. Apply SQL procedure and trigger to create, update, delete, and retrieve data from database. Implemented a responsive user interface using Razor and Bootstrap. RESTful API to provide access to movie data and enable CRUD operations. Movie streaming servive! Deployed the application to AWS Elastic Beanstalk to provide a reliable and scalable user experience.",
       current: true,
-      web: "http://lab3hungnguyen-dev.ca-central-1.elasticbeanstalk.com",
+      web: "https://github.com/mhpro15/ASP.NET-MovieManagerWebApp",
       img: "elastic.png",
     },
     {
