@@ -253,7 +253,6 @@ export const professionalData = {
       web: "https://manhhung.app",
       img: "resume_project.png",
     },
-
     {
       role: "Solo Project: Simon - Color Sequence Game",
       description:
