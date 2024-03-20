@@ -261,6 +261,7 @@ export const professionalData = {
       web: "https://mhpro15.github.io/colorgame/",
       img: "simon.png",
     },
+
     {
       role: "Solo Project: Discord ChatBot with OpenAI GPT Function",
       description:
