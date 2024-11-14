@@ -147,9 +147,11 @@ export const personalData = {
   altName: "Hiro",
   role: "Software Developer Co-op @ MCCSS",
   education: [
-    "Software Engineering Technology Diploma, Centennial College (2022 - Now)",
+    "Software Engineering Technology",
+    "Centennial College",
+    "Toronto, Ontario",
+    "(2022 - Present)",
   ],
-  location: "Toronto, Ontario",
   contactLinks: [
     "mailto:emailto:nguyenmanhhungpro15@gmail.com@gmail.com",
     "https://www.linkedin.com/in/hung-nguyen1206/",

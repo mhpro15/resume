@@ -69,8 +69,6 @@ const Sidebar = ({ data }) => {
         </div>
 
         <h4 className="mb-8 text-center">{role}</h4>
-
-        <p className="mb-2 font-noto">{location}</p>
         <p className="mb-2 font-noto">{education[0]}</p>
         <div className="text-white text-center my-8 mb-2 sm:mt-15 ">
           <h3 className="font-name mb-0">FIND ME AT</h3>
