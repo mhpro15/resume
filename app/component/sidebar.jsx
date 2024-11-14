@@ -70,6 +70,9 @@ const Sidebar = ({ data }) => {
 
         <h4 className="mb-8 text-center">{role}</h4>
         <p className="mb-2 font-noto">{education[0]}</p>
+        <p className="mb-2 font-noto">{education[1]}</p>
+        <p className="mb-2 font-noto">{education[2]}</p>
+        <p className="mb-2 font-noto">{education[3]}</p>
         <div className="text-white text-center my-8 mb-2 sm:mt-15 ">
           <h3 className="font-name mb-0">FIND ME AT</h3>
           <div className="flex flex-row justify-center gap-5 text-3xl mb-2">
