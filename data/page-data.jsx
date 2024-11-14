@@ -148,8 +148,7 @@ export const personalData = {
   role: "Software Developer Co-op @ MCCSS",
   education: [
     "Software Engineering Technology",
-    "Centennial College",
-    "Toronto, Ontario",
+    "Centennial College, Toronto, Ontario",
     "(2022 - Present)",
   ],
   contactLinks: [
