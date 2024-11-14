@@ -6,7 +6,7 @@ import TypeIt from "typeit-react";
 import "font-awesome/css/font-awesome.min.css";
 
 const Sidebar = ({ data }) => {
-  const { altName, name, role, education, contactLinks } = data;
+  const { altName, name, role, location, education, contactLinks } = data;
 
   return (
     <div className=" bg-black flex flex-col content-between w-full h-auto sm:h-full sm:justify-around sm:w-1/3 sm:fixed ">
@@ -69,8 +69,9 @@ const Sidebar = ({ data }) => {
         </div>
 
         <h4 className="mb-8 text-center">{role}</h4>
+
+        <p className="mb-2 font-noto">{location}</p>
         <p className="mb-2 font-noto">{education[0]}</p>
-        <p className="mb-2 font-noto">{education[1]}</p>
         <div className="text-white text-center my-8 mb-2 sm:mt-15 ">
           <h3 className="font-name mb-0">FIND ME AT</h3>
           <div className="flex flex-row justify-center gap-5 text-3xl mb-2">

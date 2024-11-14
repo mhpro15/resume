@@ -1,3 +1,4 @@
+import exp from "constants";
 import React from "react";
 const pythonLogo = (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="-30 0 600 600">
@@ -144,11 +145,11 @@ const javaLogo = (
 export const personalData = {
   name: "Hung Nguyen",
   altName: "Hiro",
-  role: "Software Engineering Technology Student",
+  role: "Software Developer Co-op @ MCCSS",
   education: [
-    "Electronics Engineering Technology Diploma, Seneca College (2018 - 2020)",
     "Software Engineering Technology Diploma, Centennial College (2022 - Now)",
   ],
+  location: "Toronto, Ontario",
   contactLinks: [
     "mailto:emailto:nguyenmanhhungpro15@gmail.com@gmail.com",
     "https://www.linkedin.com/in/hung-nguyen1206/",
