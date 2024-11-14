@@ -153,7 +153,7 @@ export const personalData = {
     "(2022 - Present)",
   ],
   contactLinks: [
-    "mailto:emailto:nguyenmanhhungpro15@gmail.com@gmail.com",
+    "mailto:nmhp1903@gmail.com",
     "https://www.linkedin.com/in/hung-nguyen1206/",
     "https://github.com/mhpro15",
     "https://leetcode.com/nguyenmanhhungpro15/",
